@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    width: 600px;
+    height: 400px;
+    background-color: #a8e361;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain > form {
+    width: 90%;
+    height: 29%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    margin: auto;
+}
+.contain > form > input {
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+}
